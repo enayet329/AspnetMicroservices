@@ -28,7 +28,6 @@ namespace Discount.API
         {
             services.AddScoped<IDiscountRepository, DiscountRepository>();
 
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
